@@ -1,0 +1,8 @@
+.Notifications {
+    border: 5rem;
+    padding: 2rem;
+    border: 2px dashed red;
+    max-height: max-content;
+    font-size: large;
+    margin-top: 1rem;
+}
