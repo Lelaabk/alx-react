@@ -1,5 +1,5 @@
 import React from "react";
-import "./Notifications.css";
+import './Notifications.css';
 import icon from './close-icon.png';
 import { getLatestNotification } from "./utils";
 
@@ -20,7 +20,7 @@ function Notifications() {
             >
                 <img src={icon} alt="Close" />
             </button>
-            <p>Here is the list of notifications</p>
+            <p><strong>Here is the list of notifications</strong></p>
             <ul>
                 <li data-priority="default">New course available</li>
                 <li data-priority="urgent">New resume available</li>

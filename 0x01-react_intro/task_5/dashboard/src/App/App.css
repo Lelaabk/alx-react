@@ -32,15 +32,11 @@
 
 .App-footer {
   font-size: var(--gen-font-size);
+  padding: var(--padding);
   text-align: center;
+  font-style: italic;
 }
 
-.footerp {
-  text-align: center;
-  padding: 2rem;
-  padding-top: 0.5rem;
-  font-weight: bold;
-  font-style: italic;
-  font-family: serif;
-  font-size: larger;
+.App-body label {
+  margin: 0.2rem;
 }

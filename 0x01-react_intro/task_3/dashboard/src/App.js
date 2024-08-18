@@ -32,9 +32,11 @@ function App() {
             Copyright {getFooterCopy(true)} - {getFullYear()}
           </p>
         </footer>
+        <div className='space'></div>
         <style>
         {`
           label, button {
+            margin-right: 3px;
             margin-left: 6px; /* Add margin between labels */
             display: inline; /* Ensure each label appears on a new line */
           }
