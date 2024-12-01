@@ -1,1 +1,0 @@
-# React Reducx Action Creator Normalizr
